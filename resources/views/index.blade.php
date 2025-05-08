@@ -1,9 +1,3 @@
-<!-- /*
-* Template Name: Tour
-* Template Author: Untree.co
-* Tempalte URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/ -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -29,10 +23,10 @@
 	<link rel="stylesheet" href="{{ asset('tour/css/aos.css') }}">
 	<link rel="stylesheet" href="{{ asset('tour/css/style.css') }}">
 
-	<title>Tour Free Bootstrap Template for Travel Agency by Untree.co</title>
+	<title>Dinas Kebudayaan dan Pariwisata Kabupaten Minahasa</title>
 </head>
 
-<body>
+<body style="">
 
 
 	<div class="site-mobile-menu site-navbar-target">
@@ -47,29 +41,13 @@
 	<nav class="site-nav">
 		<div class="container">
 			<div class="site-navigation">
-				<a href="index.html" class="logo m-0">Tour <span class="text-primary">.</span></a>
+				<a href="index.html" class="logo m-0">DiKePa Minahasa<span class="text-primary">.</span></a>
 
 				<ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
-					<li class="active"><a href="index.html">Home</a></li>
-					<li class="has-children">
-						<a href="#">Dropdown</a>
-						<ul class="dropdown">
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#">Menu One</a></li>
-							<li class="has-children">
-								<a href="#">Menu Two</a>
-								<ul class="dropdown">
-									<li><a href="#">Sub Menu One</a></li>
-									<li><a href="#">Sub Menu Two</a></li>
-									<li><a href="#">Sub Menu Three</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Menu Three</a></li>
-						</ul>
-					</li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
+					<li class="active"><a href="/">Home</a></li>
+					{{-- <li><a href="{{ asset('tour/services.html') }}">Services</a></li> --}}
+					<li><a href="{{ asset('tour/about.html') }}">About</a></li>
+					<li><a href="{{ asset('tour/contact.html') }}">Contact Us</a></li>
 				</ul>
 
 				<a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
@@ -86,7 +64,7 @@
 			<div class="row align-items-center">
 				<div class="col-lg-7">
 					<div class="intro-wrap">
-						<h1 class="mb-5"><span class="d-block">Let's Enjoy Your</span> Trip In <span class="typed-words"></span></h1>
+						<h1 class="mb-5"><span class="d-block">Nikmati Liburanmu</span> Di <span class="typed-words"></span></h1>
 
 						<div class="row">
 							<div class="col-12">
@@ -94,8 +72,8 @@
 									<div class="row mb-2">
 										<div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-4">
 											<select name="" id="" class="form-control custom-select">
-												<option value="">Destination</option>
-												<option value="">Peru</option>
+												<option value="">Destinasi</option>
+												<option value="">Minahasa</option>
 												<option value="">Japan</option>
 												<option value="">Thailand</option>
 												<option value="">Brazil</option>
@@ -119,7 +97,7 @@
 										</div>
 										<div class="col-lg-8">
 											<label class="control control--checkbox mt-3">
-												<span class="caption">Save this search</span>
+												<span class="caption">Simpan Pencarian Ini</span>
 												<input type="checkbox" checked="checked" />
 												<div class="control__indicator"></div>
 											</label>
@@ -132,11 +110,11 @@
 				</div>
 				<div class="col-lg-5">
 					<div class="slides">
-						<img src="images/hero-slider-1.jpg" alt="Image" class="img-fluid active">
-						<img src="images/hero-slider-2.jpg" alt="Image" class="img-fluid">
-						<img src="images/hero-slider-3.jpg" alt="Image" class="img-fluid">
-						<img src="images/hero-slider-4.jpg" alt="Image" class="img-fluid">
-						<img src="images/hero-slider-5.jpg" alt="Image" class="img-fluid">
+						<img src="{{ asset('tour/images/hero-slider-1.jpg') }}" alt="Image" class="img-fluid active">
+						<img src="{{ asset('tour/images/hero-slider-2.jpg') }}" alt="Image" class="img-fluid">
+						<img src="{{ asset('tour/images/hero-slider-3.jpg') }}" alt="Image" class="img-fluid">
+						<img src="{{ asset('tour/images/hero-slider-4.jpg') }}" alt="Image" class="img-fluid">
+						<img src="{{ asset('tour/images/hero-slider-5.jpg') }}" alt="Image" class="img-fluid">
 					</div>
 				</div>
 			</div>
@@ -148,13 +126,14 @@
 		<div class="container">
 			<div class="row mb-5 justify-content-center">
 				<div class="col-lg-6 text-center">
-					<h2 class="section-title text-center mb-3">Our Services</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+					<h2 class="section-title text-center mb-3">Pelayanan Kami</h2>
+					<p>Dinas Kebudayaan dan Pariwisata Kabupaten Minahasa bertugas mengelola, mempromosikan, dan melestarikan warisan budaya
+                    serta pengembangan destinasi pariwisata di 25 kecamatan yang ada.</p>
 				</div>
 			</div>
 			<div class="row align-items-stretch">
 				<div class="col-lg-4 order-lg-1">
-					<div class="h-100"><div class="frame h-100"><div class="feature-img-bg h-100" style="background-image: url('images/hero-slider-1.jpg');"></div></div></div>
+					<div class="h-100"><div class="frame h-100"><div class="feature-img-bg h-100" style="background-image: url('{{ asset('tour/images/hero-slider-1.jpg') }}');"></div></div></div>
 				</div>
 
 				<div class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
@@ -201,7 +180,7 @@
 		</div>
 	</div>
 
-	<div class="untree_co-section count-numbers py-5">
+	{{-- <div class="untree_co-section count-numbers py-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-6 col-sm-6 col-md-6 col-lg-3">
@@ -238,7 +217,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 
 
 
@@ -251,12 +230,12 @@
 			<div class="owl-carousel owl-3-slider">
 
 				<div class="item">
-					<a class="media-thumb" href="images/hero-slider-1.jpg" data-fancybox="gallery">
+					<a class="media-thumb" href="{{ asset('tour/images/hero-slider-1.jpg') }}" data-fancybox="gallery">
 						<div class="media-text">
 							<h3>Pragser Wildsee</h3>
 							<span class="location">Italy</span>
 						</div>
-						<img src="images/hero-slider-1.jpg" alt="Image" class="img-fluid">
+						<img src="{{ asset('tour/images/hero-slider-1.jpg') }}" alt="Image" class="img-fluid">
 					</a>
 				</div>
 
@@ -266,48 +245,48 @@
 							<h3>Oia</h3>
 							<span class="location">Greece</span>
 						</div>
-						<img src="images/hero-slider-2.jpg" alt="Image" class="img-fluid">
+						<img src="{{ asset('tour/images/hero-slider-2.jpg') }}" alt="Image" class="img-fluid">
 					</a>
 				</div>
 
 				<div class="item">
-					<a class="media-thumb" href="images/hero-slider-3.jpg" data-fancybox="gallery">
+					<a class="media-thumb" href="{{ asset('tour/images/hero-slider-3.jpg') }}" data-fancybox="gallery">
 						<div class="media-text">
 							<h3>Perhentian Islands</h3>
 							<span class="location">Malaysia</span>
 						</div>
-						<img src="images/hero-slider-3.jpg" alt="Image" class="img-fluid">
+						<img src="{{ asset('tour/images/hero-slider-3.jpg') }}" alt="Image" class="img-fluid">
 					</a>
 				</div>
 
 
 				<div class="item">
-					<a class="media-thumb" href="images/hero-slider-4.jpg" data-fancybox="gallery">
+					<a class="media-thumb" href="{{ asset('tour/images/hero-slider-4.jpg') }}" data-fancybox="gallery">
 						<div class="media-text">
 							<h3>Rialto Bridge</h3>
 							<span class="location">Italy</span>
 						</div>
-						<img src="images/hero-slider-4.jpg" alt="Image" class="img-fluid">
+						<img src="{{asset('tour/images/hero-slider-4.jpg')}}" alt="Image" class="img-fluid">
 					</a>
 				</div>
 
 				<div class="item">
-					<a class="media-thumb" href="images/hero-slider-5.jpg" data-fancybox="gallery">
+					<a class="media-thumb" href="{{ asset('tour/images/hero-slider-5.jpg') }}" data-fancybox="gallery">
 						<div class="media-text">
 							<h3>San Francisco, United States</h3>
 							<span class="location">United States</span>
 						</div>
-						<img src="images/hero-slider-5.jpg" alt="Image" class="img-fluid">
+						<img src="{{ asset('tour/images/hero-slider-5.jpg') }}" alt="Image" class="img-fluid">
 					</a>
 				</div>
 
 				<div class="item">
-					<a class="media-thumb" href="images/hero-slider-1.jpg" data-fancybox="gallery">
+					<a class="media-thumb" href="{{ asset('tour/images/hero-slider-1.jpg') }}" data-fancybox="gallery">
 						<div class="media-text">
 							<h3>Lake Thun</h3>
 							<span class="location">Switzerland</span>
 						</div>
-						<img src="images/hero-slider-2.jpg" alt="Image" class="img-fluid">
+						<img src="{{asset('tour/images/hero-slider-2.jpg')}}" alt="Image" class="img-fluid">
 					</a>
 				</div>
 
@@ -321,12 +300,12 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-7 text-center">
-					<h2 class="section-title text-center mb-5">Testimonials</h2>
+					<h2 class="section-title text-center mb-5">Testimoni</h2>
 
 					<div class="owl-single owl-carousel no-nav">
 						<div class="testimonial mx-auto">
 							<figure class="img-wrap">
-								<img src="images/person_2.jpg" alt="Image" class="img-fluid">
+								<img src="{{asset('tour/images/person_2.jpg')}}" alt="Image" class="img-fluid">
 							</figure>
 							<h3 class="name">Adam Aderson</h3>
 							<blockquote>
@@ -336,7 +315,7 @@
 
 						<div class="testimonial mx-auto">
 							<figure class="img-wrap">
-								<img src="images/person_3.jpg" alt="Image" class="img-fluid">
+								<img src="{{ asset('tour/images/person_3.jpg') }}" alt="Image" class="img-fluid">
 							</figure>
 							<h3 class="name">Lukas Devlin</h3>
 							<blockquote>
@@ -346,7 +325,7 @@
 
 						<div class="testimonial mx-auto">
 							<figure class="img-wrap">
-								<img src="images/person_4.jpg" alt="Image" class="img-fluid">
+								<img src="{{ asset('tour/images/person_4.jpg') }}" alt="Image" class="img-fluid">
 							</figure>
 							<h3 class="name">Kayla Bryant</h3>
 							<blockquote>
@@ -362,7 +341,7 @@
 	</div>
 
 
-	<div class="untree_co-section">
+	{{-- <div class="untree_co-section">
 		<div class="container">
 			<div class="row justify-content-center text-center mb-5">
 				<div class="col-lg-6">
@@ -451,9 +430,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 
-	<div class="untree_co-section">
+	{{-- <div class="untree_co-section">
 		<div class="container">
 			<div class="row justify-content-between align-items-center">
 
@@ -491,11 +470,11 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 
 
 
-	<div class="py-5 cta-section">
+	{{-- <div class="py-5 cta-section">
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-md-12">
@@ -505,16 +484,18 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 
-	<div class="site-footer">
+	<div class="site-footer" style="background-color: #E52020">
 		<div class="inner first">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-lg-4">
 						<div class="widget">
-							<h3 class="heading">About Tour</h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<h3 class="heading">Tentang Perjalanan</h3>
+							<p>Dinas Pariwisata Daerah Provinsi Sulawesi Utara memiliki tugas membantu Gubernur dalam melaksanakan urusan pemerintahan
+                            dan tugas pembantuan di bidang pariwisata. Mereka juga bertanggung jawab untuk mempromosikan potensi pariwisata di
+                            wilayah Sulawesi Utara, termasuk di Kabupaten Minahasa.</p>
 						</div>
 						<div class="widget">
 							<ul class="list-unstyled social">
@@ -529,7 +510,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-6 col-lg-2 pl-lg-5">
+					{{-- <div class="col-md-6 col-lg-2 pl-lg-5">
 						<div class="widget">
 							<h3 class="heading">Pages</h3>
 							<ul class="links list-unstyled">
@@ -548,14 +529,13 @@
 								<li><a href="#">Contact</a></li>
 							</ul>
 						</div>
-					</div>
+					</div> --}}
 					<div class="col-md-6 col-lg-4">
 						<div class="widget">
-							<h3 class="heading">Contact</h3>
+							<h3 class="heading">Kontak</h3>
 							<ul class="list-unstyled quick-info links">
-								<li class="email"><a href="#">mail@example.com</a></li>
-								<li class="phone"><a href="#">+1 222 212 3819</a></li>
-								<li class="address"><a href="#">43 Raymouth Rd. Baltemoer, London 3910</a></li>
+								<li class="phone"><a href="#">Jam Buka : 08.:00 WITA - 16:30 WITA</a></li>
+								<li class="address"><a href="#">8W77+G96, Kembuan, Kec. Tondano Utara, Kabupaten Minahasa, Sulawesi Utara</a></li>
 							</ul>
 						</div>
 					</div>
@@ -569,7 +549,7 @@
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-md-8 mb-3 mb-md-0 mx-auto">
-						<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co" class="link-highlight">Untree.co</a> <!-- License information: https://untree.co/license/ -->Distributed By <a href="https://themewagon.com" target="_blank" >ThemeWagon</a>
+						<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Made by<a href="https://instagram.com/gilbertsmbln" class="link-highlight"> JGAS2005</a>
 						</p>
 					</div>
 
@@ -578,12 +558,12 @@
 		</div>
 	</div>
 
-	<div id="overlayer"></div>
+	{{-- <div id="overlayer"></div>
 	<div class="loader">
 		<div class="spinner-border" role="status">
 			<span class="sr-only">Loading...</span>
 		</div>
-	</div>
+	</div> --}}
 
 	<script src="{{ asset('tour/js/jquery-3.4.1.min.js') }}"></script>
 	<script src="{{ asset('tour/js/popper.min.js') }}"></script>
