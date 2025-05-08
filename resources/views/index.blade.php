@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -45,9 +45,9 @@
 
 				<ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
 					<li class="active"><a href="/">Home</a></li>
-					{{-- <li><a href="{{ asset('tour/services.html') }}">Services</a></li> --}}
-					<li><a href="{{ asset('tour/about.html') }}">About</a></li>
-					<li><a href="{{ asset('tour/contact.html') }}">Contact Us</a></li>
+					<li><a href="#tempat-wisata">Destinasi</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact Us</a></li>
 				</ul>
 
 				<a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
@@ -122,7 +122,7 @@
 	</div>
 
 
-	<div class="untree_co-section">
+	<div id="about" class="untree_co-section">
 		<div class="container">
 			<div class="row mb-5 justify-content-center">
 				<div class="col-lg-6 text-center">
@@ -221,10 +221,10 @@
 
 
 
-	<div class="untree_co-section">
+	<div id="tempat-wisata" class="untree_co-section">
 		<div class="container">
 			<div class="row text-center justify-content-center mb-5">
-				<div class="col-lg-7"><h2 class="section-title text-center">Popular Destination</h2></div>
+				<div class="col-lg-7"><h2 class="section-title text-center">Destinasi Populer</h2></div>
 			</div>
 
 			<div class="owl-carousel owl-3-slider">
@@ -486,7 +486,7 @@
 		</div>
 	</div> --}}
 
-	<div class="site-footer" style="background-color: #E52020">
+	<div id="contact" class="site-footer" style="background-color: #E52020">
 		<div class="inner first">
 			<div class="container">
 				<div class="row">
