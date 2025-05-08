@@ -33,9 +33,8 @@ class DestinasiPopulerResource extends Resource
                 TextInput::make('lokasi')->label('Lokasi'),
                 FileUpload::make('gambar')
                     ->label('Gambar')
-                    ->image()
-                    ->disk('public')
                     ->directory('destinasi_populers')
+                    ->image()
                     ->required()
             ]);
     }
@@ -46,7 +45,7 @@ class DestinasiPopulerResource extends Resource
             ->columns([
                 TextColumn::make('nama_tempat')->label('Nama Tempat'),
                 TextColumn::make('lokasi')->label('Lokasi'),
-                TextColumn::make('gambar')->label('Gambar')->url(fn($record) => asset('storage/' . $record->gambar))
+                TextColumn::make('gambar')->label('Gambar')->url(fn($record) => asset('storage/destinasi_populers' . $record->gambar))
             ])
             ->filters([
                 //

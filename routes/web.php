@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DestinasiPopulerController;
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [DestinasiPopulerController::class, 'index']);

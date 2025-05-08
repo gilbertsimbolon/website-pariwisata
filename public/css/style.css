@@ -1,0 +1,8 @@
+.owl-carousel .item img {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -9,7 +9,7 @@ class DestinasiPopulerController extends Controller
 {
     public function index(){
         $destinasi = DestinasiPopuler::all();
-
+        // dd($destinasi);
         return view('index', compact('destinasi'));
     }
 }
