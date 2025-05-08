@@ -9,9 +9,11 @@ use Filament\Resources\Pages\ListRecords;
 class ListDestinasiPopulers extends ListRecords
 {
     protected static string $resource = DestinasiPopulerResource::class;
-
+    protected static ?string $title = 'Destinasi Populer';
+    
     protected function getHeaderActions(): array
     {
+
         return [
             Actions\CreateAction::make(),
         ];
