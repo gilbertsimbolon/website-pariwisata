@@ -25,7 +25,7 @@
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 	<title>Dinas Kebudayaan dan Pariwisata Kabupaten Minahasa</title>
 
-    
+
 
 </head>
 
@@ -49,8 +49,8 @@
 				<ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
 					<li class="active"><a href="/">Home</a></li>
 					<li><a href="#tempat-wisata">Destinasi</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#contact">Contact Us</a></li>
+					<li><a href="#about">Tentang Kami</a></li>
+					<li><a href="#contact">Hubungi Kami</a></li>
 				</ul>
 
 				<a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
@@ -72,11 +72,11 @@
 				</div>
 				<div class="col-lg-5">
 					<div class="slides">
-						<img src="{{ asset('tour/images/hero-slider-1.jpg') }}" alt="Image" class="img-fluid active">
-						<img src="{{ asset('tour/images/hero-slider-2.jpg') }}" alt="Image" class="img-fluid">
-						<img src="{{ asset('tour/images/hero-slider-3.jpg') }}" alt="Image" class="img-fluid">
-						<img src="{{ asset('tour/images/hero-slider-4.jpg') }}" alt="Image" class="img-fluid">
-						<img src="{{ asset('tour/images/hero-slider-5.jpg') }}" alt="Image" class="img-fluid">
+						<img src="{{ asset('img/gunung klabat.webp') }}" alt="Image" class="img-fluid active">
+						<img src="{{ asset('img/pantai pulsan.webp') }}" alt="Image" class="img-fluid">
+						<img src="{{ asset('img/pantai paal.jpg') }}" alt="Image" class="img-fluid">
+						<img src="{{ asset('img/gunung klabat.webp') }}" alt="Image" class="img-fluid">
+						<img src="{{ asset('img/pantai pulisan.webp') }}" alt="Image" class="img-fluid">
 					</div>
 				</div>
 			</div>
@@ -516,7 +516,7 @@
 		})
 	</script>
 
-    
+
     <script src="{{ asset('tour/js/custom.js') }}"></script>
 
 </body>
