@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="Untree.co">
 	<link rel="shortcut icon" href="favicon.png">
 
 	<meta name="description" content="" />
@@ -96,7 +95,7 @@
 			</div>
 			<div class="row align-items-stretch">
 				<div class="col-lg-4 order-lg-1">
-					<div class="h-100"><div class="frame h-100"><div class="feature-img-bg h-100" style="background-image: url('{{ asset('tour/images/hero-slider-1.jpg') }}');"></div></div></div>
+					<div class="h-100"><div class="frame h-100"><div class="feature-img-bg h-100" style="background-image: url('{{ asset('img/kawasaran.jpg') }}');"></div></div></div>
 				</div>
 
 				<div class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
@@ -178,7 +177,7 @@
 					<div class="owl-single owl-carousel no-nav">
 						<div class="testimonial mx-auto">
 							<figure class="img-wrap">
-								<img src="{{asset('tour/images/person_2.jpg')}}" alt="Image" class="img-fluid">
+								<img src="{{asset('img/yulius.webp')}}" alt="Image" class="img-fluid">
 							</figure>
 							<h3 class="name">Adam Aderson</h3>
 							<blockquote>
