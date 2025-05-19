@@ -23,6 +23,7 @@
 	<link rel="stylesheet" href="{{ asset('tour/css/aos.css') }}">
 	<link rel="stylesheet" href="{{ asset('tour/css/style.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 	<title>Dinas Kebudayaan dan Pariwisata Kabupaten Minahasa</title>
 
 
@@ -102,17 +103,18 @@
 
 					<div class="feature-1 d-md-flex">
 						<div class="align-self-center">
-							<span class="flaticon-house display-4 text-primary"></span>
-							<h3>Beautiful Condo</h3>
-							<p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
+							<span class="fas fa-bullhorn display-4 text-primary"></span>
+							<h3 class="mt-2">Promosi Destinasi Wisata</h3>
+							<p class="mb-0">Kami aktif mempromosikan destinasi unggulan Minahasa melalui media digital, event pariwisata, dan kerja sama antar
+                            daerah.</p>
 						</div>
 					</div>
 
 					<div class="feature-1 ">
 						<div class="align-self-center">
-							<span class="flaticon-restaurant display-4 text-primary"></span>
-							<h3>Restaurants & Cafe</h3>
-							<p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
+							<span class="fas fa-users display-4 text-primary"></span>
+							<h3 class="mt-2">Pemberdayaan Komunitas Wisata</h3>
+							<p class="mb-0">Pelatihan dan dukungan terhadap masyarakat lokal dalam mengelola potensi pariwisata berbasis budaya.</p>
 						</div>
 					</div>
 
@@ -122,17 +124,17 @@
 
 					<div class="feature-1 d-md-flex">
 						<div class="align-self-center">
-							<span class="flaticon-mail display-4 text-primary"></span>
-							<h3>Easy to Connect</h3>
-							<p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
+							<span class="fas fa-landmark display-4 text-primary"></span>
+							<h3 class="mt-2">Pelestarian Warisan Budaya</h3>
+							<p class="mb-0">Melindungi, mendata, dan memfasilitasi pelestarian budaya lokal seperti rumah adat, tarian, dan situs sejarah.</p>
 						</div>
 					</div>
 
 					<div class="feature-1 d-md-flex">
 						<div class="align-self-center">
-							<span class="flaticon-phone-call display-4 text-primary"></span>
-							<h3>24/7 Support</h3>
-							<p class="mb-0">Even the all-powerful Pointing has no control about the blind texts.</p>
+							<span class="fas fa-phone display-4 text-primary"></span>
+							<h3 class="mt-2">Layanan Informasi Publik</h3>
+							<p class="mb-0">Memberikan informasi terkait destinasi, acara, dan layanan pariwisata di Minahasa melalui sambungan telepon.</p>
 						</div>
 					</div>
 
@@ -141,46 +143,6 @@
 			</div>
 		</div>
 	</div>
-
-	{{-- <div class="untree_co-section count-numbers py-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-6 col-sm-6 col-md-6 col-lg-3">
-					<div class="counter-wrap">
-						<div class="counter">
-							<span class="" data-number="9313">0</span>
-						</div>
-						<span class="caption">No. of Travels</span>
-					</div>
-				</div>
-				<div class="col-6 col-sm-6 col-md-6 col-lg-3">
-					<div class="counter-wrap">
-						<div class="counter">
-							<span class="" data-number="8492">0</span>
-						</div>
-						<span class="caption">No. of Clients</span>
-					</div>
-				</div>
-				<div class="col-6 col-sm-6 col-md-6 col-lg-3">
-					<div class="counter-wrap">
-						<div class="counter">
-							<span class="" data-number="100">0</span>
-						</div>
-						<span class="caption">No. of Employees</span>
-					</div>
-				</div>
-				<div class="col-6 col-sm-6 col-md-6 col-lg-3">
-					<div class="counter-wrap">
-						<div class="counter">
-							<span class="" data-number="120">0</span>
-						</div>
-						<span class="caption">No. of Countries</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> --}}
-
 
 
 	<div id="tempat-wisata" class="untree_co-section">
