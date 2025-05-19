@@ -12,4 +12,8 @@ class DestinasiPopulerController extends Controller
         // dd($destinasi);
         return view('index', compact('destinasi'));
     }
+
+    public function getDestinasi(){
+        return DestinasiPopuler::all();
+    }
 }
