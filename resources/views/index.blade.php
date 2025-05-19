@@ -70,13 +70,13 @@
 						<h1 class="mb-5"><span class="d-block">Nikmati Liburanmu</span> Di <span class="typed-words"></span></h1>
 					</div>
 				</div>
-				<div class="col-lg-5">
-					<div class="slides">
-						<img src="{{ asset('img/gunung klabat.webp') }}" alt="Image" class="img-fluid active">
-						<img src="{{ asset('img/pantai pulsan.webp') }}" alt="Image" class="img-fluid">
+				<div class="col-lg-5" style="padding-left: 50px">
+					<div class="">
+						<img src="{{ asset('img/minahasa.png') }}" alt="Image" class="img-fluid">
+						{{-- <img src="{{ asset('img/pantai pulsan.webp') }}" alt="Image" class="img-fluid">
 						<img src="{{ asset('img/pantai paal.jpg') }}" alt="Image" class="img-fluid">
 						<img src="{{ asset('img/gunung klabat.webp') }}" alt="Image" class="img-fluid">
-						<img src="{{ asset('img/pantai pulisan.webp') }}" alt="Image" class="img-fluid">
+						<img src="{{ asset('img/pantai pulisan.webp') }}" alt="Image" class="img-fluid"> --}}
 					</div>
 				</div>
 			</div>
@@ -95,7 +95,12 @@
 			</div>
 			<div class="row align-items-stretch">
 				<div class="col-lg-4 order-lg-1">
-					<div class="h-100"><div class="frame h-100"><div class="feature-img-bg h-100" style="background-image: url('{{ asset('img/kawasaran.jpg') }}');"></div></div></div>
+					<div class="h-100" style="padding-left: 70px">
+                        <div class="frame h-100">
+                            <div class="feature-img-bg h-100" style="background-image: url('{{ asset('img/kawasaran.jpg') }}');">
+                            </div>
+                        </div>
+                    </div>
 				</div>
 
 				<div class="col-6 col-sm-6 col-lg-4 feature-1-wrap d-md-flex flex-md-column order-lg-1" >
@@ -459,7 +464,7 @@
 			})
 
 			var typed = new Typed('.typed-words', {
-				strings: ["Minahasa."," Minahasa Selatan."," Minahasa Utara.", " Minahasa Tenggara."],
+				strings: ["Kabupaten Minahasa."],
 				typeSpeed: 80,
 				backSpeed: 80,
 				backDelay: 4000,
